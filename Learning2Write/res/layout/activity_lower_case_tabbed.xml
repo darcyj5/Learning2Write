@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHostl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TabWidget
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@android:id/tabs"
+    />
+     <FrameLayout
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/tabcontent"
+     >
+     <RelativeLayout
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tab1l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+     
+    <Button
+    android:id="@+id/button3_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+
+    <com.learning2write.DrawLine
+        android:layout_width="fill_parent"
+        android:layout_height= "match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:focusable="true" />
+
+     </RelativeLayout>
+     
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab2l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+    <com.learning2write.DrawDiag
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:focusable="true" />  
+
+ 	<Button
+    android:id="@+id/button4_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+ 	
+     </RelativeLayout>
+     
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab3l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.LowerS
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button5_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab4l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.LowerA
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button6_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab5l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.LowerT
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button7_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    <Button
+    android:id="@+id/button9_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Undo" />
+    
+    <Button
+    android:id="@+id/button10_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="Redo" />
+    
+    </RelativeLayout>
+        <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab6l"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.LowerI
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button8_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+    </FrameLayout>
+    
+    </TabHost>

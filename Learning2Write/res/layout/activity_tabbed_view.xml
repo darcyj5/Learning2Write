@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHost"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TabWidget
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@android:id/tabs"
+    />
+     <FrameLayout
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/tabcontent"
+     >
+     <RelativeLayout
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tab1"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+     <com.learning2write.DrawLine
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button3_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+
+     </RelativeLayout>
+     
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab2"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+    <com.learning2write.DrawDiag
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:focusable="true" />  
+
+ 	<Button
+    android:id="@+id/button4_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+ 	
+     </RelativeLayout>
+     
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab3"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.UpperS
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button5_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab4"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.UpperA
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button6_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+        <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab5"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.UpperT
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button7_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+        <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tab6"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+     >
+ 	
+    <com.learning2write.UpperI
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" />
+     
+    <Button
+    android:id="@+id/button8_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/Back" />
+    
+    </RelativeLayout>
+    </FrameLayout>
+    
+    </TabHost>
